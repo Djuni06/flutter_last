@@ -21,7 +21,7 @@ class zodiac extends StatelessWidget {
                     maxLines: 1,
                   ),
                   leading: CircleAvatar(
-                    backgroundImage: AssetImage('assets/capricorn.png'),
+                    backgroundImage: AssetImage('assets/capricorn.jpg'),
                   ),
                   trailing: Icon(
                     Icons.arrow_circle_right_outlined,
@@ -36,7 +36,7 @@ class zodiac extends StatelessWidget {
               Card(
                 child: ListTile(
                   leading: CircleAvatar(
-                      backgroundImage: AssetImage('assets/aquarius.png')),
+                      backgroundImage: AssetImage('assets/aquarius.jpg')),
                   title: Text('AQUARIUS' + '\n20 Januari - 18 Februari',
                       style: TextStyle(fontSize: 17)),
                   subtitle: Text(
@@ -57,7 +57,7 @@ class zodiac extends StatelessWidget {
               Card(
                 child: ListTile(
                   leading: CircleAvatar(
-                      backgroundImage: AssetImage('assets/pisces.png')),
+                      backgroundImage: AssetImage('assets/pisces.jpg')),
                   title: Text('PISCES' + '\n19 Februari - 20 Maret',
                       style: TextStyle(fontSize: 17)),
                   subtitle: Text(
@@ -78,7 +78,7 @@ class zodiac extends StatelessWidget {
               Card(
                 child: ListTile(
                   leading: CircleAvatar(
-                      backgroundImage: AssetImage('assets/aries.png')),
+                      backgroundImage: AssetImage('assets/aries.jpg')),
                   title: Text('ARIES' + '\n21 Maret - 19 April',
                       style: TextStyle(fontSize: 17)),
                   subtitle: Text(
@@ -99,7 +99,7 @@ class zodiac extends StatelessWidget {
               Card(
                 child: ListTile(
                   leading: CircleAvatar(
-                      backgroundImage: AssetImage('assets/taurus.png')),
+                      backgroundImage: AssetImage('assets/taurus.jpg')),
                   title: Text('TAURUS' + '\n20 April - 20 Mei',
                       style: TextStyle(fontSize: 17)),
                   subtitle: Text(
@@ -120,7 +120,7 @@ class zodiac extends StatelessWidget {
               Card(
                 child: ListTile(
                   leading: CircleAvatar(
-                      backgroundImage: AssetImage('assets/gemini.png')),
+                      backgroundImage: AssetImage('assets/gemini.jpg')),
                   title: Text('GEMINI' + '\n21 Mei - 20 Juni',
                       style: TextStyle(fontSize: 17)),
                   subtitle: Text(
@@ -141,7 +141,7 @@ class zodiac extends StatelessWidget {
               Card(
                 child: ListTile(
                   leading: CircleAvatar(
-                      backgroundImage: AssetImage('assets/cancer.png')),
+                      backgroundImage: AssetImage('assets/cancer.jpg')),
                   title: Text('CANCER' + '\n21 Juni - 22 Juli',
                       style: TextStyle(fontSize: 17)),
                   subtitle: Text(
@@ -161,7 +161,7 @@ class zodiac extends StatelessWidget {
               Card(
                 child: ListTile(
                   leading: CircleAvatar(
-                      backgroundImage: AssetImage('assets/leo.png')),
+                      backgroundImage: AssetImage('assets/leo.jpg')),
                   title: Text('LEO' + '\n23 Juli - 22 Agustus',
                       style: TextStyle(fontSize: 17)),
                   subtitle: Text(
@@ -181,7 +181,7 @@ class zodiac extends StatelessWidget {
               Card(
                 child: ListTile(
                   leading: CircleAvatar(
-                      backgroundImage: AssetImage('assets/virgo.png')),
+                      backgroundImage: AssetImage('assets/virgo.jpg')),
                   title: Text('VIRGO' + '\n23 Agustus - 22 September',
                       style: TextStyle(fontSize: 17)),
                   subtitle: Text(
@@ -201,7 +201,7 @@ class zodiac extends StatelessWidget {
               Card(
                 child: ListTile(
                   leading: CircleAvatar(
-                      backgroundImage: AssetImage('assets/libra.png')),
+                      backgroundImage: AssetImage('assets/libra.jpg')),
                   title: Text('LIBRA' + '\n23 September - 22 Oktober',
                       style: TextStyle(fontSize: 17)),
                   subtitle: Text(
@@ -221,7 +221,7 @@ class zodiac extends StatelessWidget {
               Card(
                 child: ListTile(
                   leading: CircleAvatar(
-                      backgroundImage: AssetImage('assets/scorpio.png')),
+                      backgroundImage: AssetImage('assets/scorpio.jpg')),
                   title: Text('SCORPIO' + '\n23 Oktober - 21 November',
                       style: TextStyle(fontSize: 17)),
                   subtitle: Text(
@@ -241,7 +241,7 @@ class zodiac extends StatelessWidget {
               Card(
                 child: ListTile(
                   leading: CircleAvatar(
-                      backgroundImage: AssetImage('assets/sagitarius.png')),
+                      backgroundImage: AssetImage('assets/sagitarius.jpg')),
                   title: Text('SAGITARIUS' + '\n22 November - 21 Desember',
                       style: TextStyle(fontSize: 17)),
                   subtitle: Text(

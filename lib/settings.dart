@@ -35,7 +35,11 @@ class ProfilePage extends StatelessWidget {
                   style: TextStyle(fontWeight: FontWeight.bold),
                 ),
               ),
-              Text("Student", style: TextStyle(height: 1, fontSize: 14))
+              Text("Student",
+                  style: TextStyle(
+                      height: 1,
+                      fontSize: 14,
+                      color: Color.fromARGB(255, 39, 39, 39)))
             ],
           ),
         ),
@@ -47,15 +51,15 @@ class ProfilePage extends StatelessWidget {
               children: [
                 Text("About me", style: TextStyle(fontWeight: FontWeight.bold)),
                 Container(
-                    margin: EdgeInsets.all(15),
+                    margin: EdgeInsets.all(11),
                     child: Text(
-                        "Hallo, currently I am studying at the Faculty of Enginerring and Informatics at the Universitas Pendidikan Nasional. My point of interest includes web development, mobile apps development, and UI/UX",
-                        maxLines: 4,
+                        "Hallo, currently I am studying at the Faculty of Enginerring and Informatics at the Universitas Pendidikan Nasional",
+                        maxLines: 2,
                         textAlign: TextAlign.center,
                         style:
                             TextStyle(color: Colors.black.withOpacity(0.5)))),
                 Container(
-                  width: 155,
+                  width: 150,
                   decoration: BoxDecoration(
                       border: Border(
                           bottom: BorderSide(color: Colors.black, width: 0.1))),
@@ -86,7 +90,7 @@ class ProfilePage extends StatelessWidget {
                               Icon(
                                 Icons.star,
                                 color: Colors.orange,
-                                size: 17.0,
+                                size: 15,
                               ),
                             ],
                           ),
@@ -114,7 +118,7 @@ class ProfilePage extends StatelessWidget {
                               Icon(
                                 Icons.star,
                                 color: Colors.orange,
-                                size: 17.0,
+                                size: 15,
                               ),
                             ],
                           ),
@@ -142,7 +146,7 @@ class ProfilePage extends StatelessWidget {
                               Icon(
                                 Icons.star,
                                 color: Colors.orange,
-                                size: 17.0,
+                                size: 15,
                               ),
                             ],
                           ),
@@ -170,7 +174,7 @@ class ProfilePage extends StatelessWidget {
                               Icon(
                                 Icons.star,
                                 color: Colors.orange,
-                                size: 17.0,
+                                size: 15,
                               ),
                             ],
                           ),
@@ -224,7 +228,7 @@ class ProfilePage extends StatelessWidget {
                               child: Icon(
                                 Icons.facebook,
                                 color: Colors.blueAccent,
-                                size: 14.0,
+                                size: 17,
                               ),
                             ),
                             Padding(
@@ -232,7 +236,7 @@ class ProfilePage extends StatelessWidget {
                               child: Icon(
                                 Icons.whatsapp,
                                 color: Color.fromARGB(255, 20, 239, 8),
-                                size: 14.0,
+                                size: 17,
                               ),
                             ),
                             Padding(
@@ -240,7 +244,7 @@ class ProfilePage extends StatelessWidget {
                               child: Icon(
                                 Icons.telegram,
                                 color: Colors.blueAccent,
-                                size: 14.0,
+                                size: 17,
                               ),
                             ),
                           ],

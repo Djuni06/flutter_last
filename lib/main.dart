@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_last/zodiac.dart';
-import 'settings.dart';
+import './settings.dart';
+import 'home2.dart';
 
 void main() {
   runApp(const MyApp());
@@ -8,7 +9,6 @@ void main() {
 
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
-
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -25,7 +25,6 @@ class MyHomePage extends StatefulWidget {
   const MyHomePage({
     Key? key,
   }) : super(key: key);
-
   @override
   State<MyHomePage> createState() => _MyHomePageState();
 }
@@ -38,18 +37,29 @@ class _MyHomePageState extends State<MyHomePage> {
       _selectedindex = index;
     });
   }
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
         body: Center(
           child: _children[_selectedindex],
         ),
+        floatingActionButton: FloatingActionButton(
+          onPressed: () {
+            Navigator.push(
+              context,
+              MaterialPageRoute(
+                builder: (context) => ZodiacHome(),
+              ),
+            );
+            // _navigateAndDisplayAddForm(context);
+          },
+          child: Icon(Icons.add),
+        ),
         bottomNavigationBar: BottomNavigationBar(
           items: const <BottomNavigationBarItem>[
             BottomNavigationBarItem(
               icon: Icon(Icons.home),
-              label: 'HOME',
+              label: 'home',
             ),
             BottomNavigationBarItem(icon: Icon(Icons.person), label: 'profil'),
           ],
