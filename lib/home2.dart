@@ -11,7 +11,7 @@ class ZodiacHome extends StatefulWidget {
 }
 
 class _ZodiacHometState extends State<ZodiacHome> {
-  TextEditingController _photo = TextEditingController();
+  // TextEditingController _photo = TextEditingController();
   TextEditingController _nama = TextEditingController();
   TextEditingController _date = TextEditingController();
   TextEditingController _desc = TextEditingController();
@@ -65,7 +65,7 @@ class _ZodiacHometState extends State<ZodiacHome> {
           Padding(
             padding: EdgeInsets.all(10),
             child: TextFormField(
-              controller: _photo,
+              // controller: _photo,
               decoration: new InputDecoration(
                 hintText: "contoh: Pisces",
                 labelText: "Nama Zodiac",

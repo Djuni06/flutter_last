@@ -241,7 +241,7 @@ class zodiac extends StatelessWidget {
               Card(
                 child: ListTile(
                   leading: CircleAvatar(
-                      backgroundImage: AssetImage('assets/sagitarius.jpg')),
+                      backgroundImage: AssetImage('assets/sagittarius.jpg')),
                   title: Text('SAGITARIUS' + '\n22 November - 21 Desember',
                       style: TextStyle(fontSize: 17)),
                   subtitle: Text(
